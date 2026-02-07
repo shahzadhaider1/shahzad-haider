@@ -22,11 +22,11 @@ export const metadata = {
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" suppressHydrationWarning>
       <head>
         <link rel="manifest" href="/site.webmanifest" />
       </head>
-      <body className={`${inter.variable} ${firaCode.variable}`}>
+      <body className={`${inter.variable} ${firaCode.variable}`} suppressHydrationWarning>
         {children}
         <Footer />
       </body>
