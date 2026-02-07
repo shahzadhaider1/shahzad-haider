@@ -1,4 +1,4 @@
-# shahzad-haider.com
+# shahzad-haider
 
 Code to deploy on my personal website
 
