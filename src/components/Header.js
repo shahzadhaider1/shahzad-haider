@@ -13,6 +13,9 @@ export default function Header() {
           <div className={styles.navLinks}>
             <Link href="/" className={styles.navLink}>Home</Link>
             <Link href="/about" className={styles.navLink}>About</Link>
+            <a href="https://blog.shahzad.tech" target="_blank" rel="noopener noreferrer" className={styles.navLink}>
+              Blog
+            </a>
             <a href="https://github.com/shahzadhaider1" target="_blank" rel="noopener noreferrer" className={styles.navLink}>
               GitHub
             </a>

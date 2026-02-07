@@ -1,5 +1,5 @@
 import styles from './Footer.module.css'
-import { FaGithub, FaLinkedin } from 'react-icons/fa'
+import { FaGithub, FaLinkedin, FaBlog } from 'react-icons/fa'
 
 export default function Footer() {
   return (
@@ -10,21 +10,29 @@ export default function Footer() {
             © {new Date().getFullYear()} Shahzad Haider. All Rights Reserved.
           </p>
           <div className={styles.socialLinks}>
-            <a 
-              href="https://github.com/shahzadhaider1" 
-              target="_blank" 
+            <a
+              href="https://github.com/shahzadhaider1"
+              target="_blank"
               rel="noopener noreferrer"
               aria-label="GitHub"
             >
               <FaGithub size={20} />
             </a>
-            <a 
-              href="https://www.linkedin.com/in/shahzadhaider7" 
-              target="_blank" 
+            <a
+              href="https://www.linkedin.com/in/shahzadhaider7"
+              target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
             >
               <FaLinkedin size={20} />
+            </a>
+            <a
+              href="https://blog.shahzad.tech"
+              target="_blank"
+              rel="noopener noreferrer"
+              aria-label="Blog"
+            >
+              <FaBlog size={20} />
             </a>
           </div>
         </div>

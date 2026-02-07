@@ -71,6 +71,9 @@ export default function Home() {
               <a href="https://github.com/shahzadhaider1" target="_blank" rel="noopener noreferrer" className="btn-secondary">
                 View My Code
               </a>
+              <a href="https://blog.shahzad.tech" target="_blank" rel="noopener noreferrer" className="btn-secondary">
+                Read My Blog
+              </a>
             </div>
           </div>
         </section>
